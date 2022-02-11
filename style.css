@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+a,a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #e9e9e9;
+}
+.clone-tab-content {
+    width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+}
+.tab-menu ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.tab-menu ul li {
+    display: block;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+   
+}
+.tab-menu ul li a.active{
+    border-bottom: none;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgb(50 50 93 / 0%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+}
+.tab-menu ul li a{
+    color: #000;
+    font-weight: 600;
+    display: block;
+    border-bottom: 2px solid #ccc;
+}
+.clone-tab-content .tab-body{
+    margin-top: 25px;
+}
+.clone-tab-content .tab-body .tab-pane{
+    display: none;
+}
+.clone-tab-content .tab-body .tab-pane.active{
+    display: block;
+}
+.clone-tab-content .tab-body .tab-pane h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.clone-tab-content .tab-body .tab-pane p{
+    height: auto;
+}
